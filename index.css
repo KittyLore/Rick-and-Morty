@@ -1,0 +1,28 @@
+body {
+    font-family:  'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.bloque {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.T{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.TM {
+    transform: scale(1.05);
+}
